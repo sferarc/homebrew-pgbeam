@@ -15,7 +15,7 @@
 class Pgbeam < Formula
   desc "PgBeam CLI: safe PostgreSQL access for AI agents, from the terminal"
   homepage "https://pgbeam.com"
-  version "0.3.0"
+  version "0.3.1"
   license "Apache-2.0"
 
   # Each platform gets a self-contained executable compiled by `bun build
@@ -24,24 +24,24 @@ class Pgbeam < Formula
   on_macos do
     on_arm do
       url "https://github.com/sferarc/pgbeam-cli/releases/download/v#{version}/pgbeam-darwin-arm64"
-      sha256 "43531171e092354252aae832cbf36c9f9b497eb99e2ad73aebabec8415305a5b"
+      sha256 "7581bfa339bf238da49442bb3483541af56377313bbb5100e18211275ea8a4cc"
     end
 
     on_intel do
       url "https://github.com/sferarc/pgbeam-cli/releases/download/v#{version}/pgbeam-darwin-x64"
-      sha256 "190ba605edd7a6f10f669d148b3898237767b60b56213494096b1a3e9b902729"
+      sha256 "3023224bf7c090bf0f1371f6b4033bbf294f3b98c7daefab5f196ff53763cda4"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/sferarc/pgbeam-cli/releases/download/v#{version}/pgbeam-linux-arm64"
-      sha256 "785db94272411136a0dfa9a32f8bef47e0ceafa32be6ba543af0af1c983cc41a"
+      sha256 "a14f830b32139027a1511f48c9b73c242471023025cf00e23e1d34f31a8bcc69"
     end
 
     on_intel do
       url "https://github.com/sferarc/pgbeam-cli/releases/download/v#{version}/pgbeam-linux-x64"
-      sha256 "a921af809de321cc609045825e7a139bf61255c99c1b933d461a0be44f7e4d97"
+      sha256 "538115bb93f09d444bedf0e70acba96753fe1f0ee6d1a001e45dd0aae8e376f3"
     end
   end
 
