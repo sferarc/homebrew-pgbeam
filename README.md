@@ -23,7 +23,11 @@ The CLI source, and everything about what the CLI does, lives in [sferarc/pgbeam
 
 ## Automation
 
-The formula's version and checksums are written by PgBeam's release pipeline on every CLI release, so a stale pin here is a bug rather than something waiting on a maintainer. This repository is a mirror: it is generated from a directory in the PgBeam monorepo and pushed here automatically, so a change made directly on it is synced back for review rather than merged in place.
+The formula's version and checksums are written by PgBeam's release pipeline on every CLI release, so a stale pin here is a bug rather than something waiting on a maintainer.
+
+## Contributing
+
+Issues and pull requests about the formula are welcome here. Changes are synchronised with the repository the tap is maintained in, so a pull request opened here travels back for review rather than being merged in place.
 
 ## License
 
